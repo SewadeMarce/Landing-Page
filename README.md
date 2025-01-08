@@ -7,7 +7,12 @@
 
 ![](asset/media/image/html.png) ![](asset/media/image/css.png)
 
-### Special thanks : 
+
+### Noticed :
+== The texts and images contain meaningless artificial content.
+
+== The appearance of this project on mobile is not taken into account
+ #### Special thanks : 
 
 ![](asset/media/image/OdinProjet.png) 
 
