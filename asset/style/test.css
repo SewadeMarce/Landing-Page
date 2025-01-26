@@ -1,0 +1,35 @@
+/*======================
+STYLES SUR LE HEADER
+=========================*/
+header{
+    background-color: #1F2937;
+    height: auto;
+    color:white;
+
+}
+
+header .ctn{
+    display: flex;
+    justify-content: space-around;
+
+}
+.ctn .logo{
+border: 1px solid black;
+width: auto;
+height: auto;
+}
+
+
+.ctn nav {
+    border: 1px solid white;
+
+   
+}
+.ctn nav ul{
+    border: 1px solid white;
+    height: 100%;
+    display: flex;
+    padding: 15px;
+    gap: 0px 15px;
+    flex-wrap: wrap;
+}
