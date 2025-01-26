@@ -1,156 +1,205 @@
-/*==============================================================
-Les élement HTML ont des styles CSS par défaut. Plus précisément,
-ils ont chacun une taille de police et un espacement uniques autour d'eux. 
-En utilisant la réinitialisation d'Eric Meyer, nous pouvons atténuer ces 
-styles ce qui permet à chacun d'eux d'être stylisé à partir de la même base*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
+/*======================
+STYLES SUR LE HEADER
+=========================*/
 header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+#hero, footer {
+    background-color: #1F2937;
+    height: auto;
+    color: white;
+
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+header .ctn {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ctn .logo {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
+
+.ctn nav ul {
+    height: 100%;
+    display: flex;
+    padding: 15px;
+    gap: 0px 15px;
+    flex-wrap: wrap;
+}
+
+ul a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+#hero .ctn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 25px;
+    justify-content: center;
+}
+
+.child-1,
+.child-2 {
+    width: 400px;
+    height: auto;
+    margin: 0 0 15px 0;
+
+}
+
+.child-2 figure {
+    width: 100%;
+    height: 200px;
+    background-color: #9e9fa1;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.child-1 h1 {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900
+}
+
+.child-2 figcaption,
+.child-1 p {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 0px 15px 15px;
+    text-align: justify;
+}
+
+.child-1 a {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    background-color: #3882F6;
+    height: auto;
+    width: 100px;
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: 900;
+    padding: 5px;
+}
+
+
+#info h2 {
+    width: auto;
+    height: auto;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #282c23;
+    text-align: center;
+}
+
+#info .ctn {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+#info .ctn figure {
+    width: 150px;
+    height: 170px;
+
+}
+
+#info .ctn figure img {
+    border: 3.5px solid #3882F6;
+    border-radius: 5px;
+    width: 100%;
+    height: 120px;
+}
+
+#info .ctn figure figcaption {
+    color: #585d6e;
+    font-size: 18px;
+    padding: 0px 15px 15px;
+    text-align: left;
+}
+
+blockquote {
+    background-color: #cfcfd1;
+
+}
+
+blockquote .ctn {
+
+    margin: 0px 150px;
+    color: #555d6d;
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+    padding: 60px 0;
+}
+
+cite {
+    float: inline-end;
+    padding: 2px 0  0 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #282c23;
+}
+
+#bottom .ctn{
+    background-color: #3882F6;
+    margin: 50px 90px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+.left h2{
+    color: #E5E7EB;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.ctn .left{
+    width: 70%;
+    color: #E5E7EB;
+
+}
+
+a#right{  display: inline-block;
+    text-decoration: none;
+    border: 1px solid  #E5E7EB;
+    border-radius: 5px;
+    background-color: #3882F6;
+    height: auto;
+    width: 100px;
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: 900;
+    padding: 5px;
+}
+small{
     display: block;
+    border: 1px solid white;
+    text-align: center;
+    padding: 20px;
 }
-
-body {
-    font: "Roboto";
-    line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
-
-
-
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-
-/*réinitialisation d'Eric Meyer, */
-
-
-/*Réinitialisation du rôle d'affichage HTML5
- pour les anciens navigateurs
-========================================*/
-
-

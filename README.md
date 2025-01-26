@@ -1,18 +1,44 @@
-# Creation of an entire web page
+# THE ODIN PROJECT : My Awesome Company
 
- Creation of an entire web page from a design provided.
- ![](asset/media/image/01.png)
+## Aperçu
+Ce projet est un site web simple fictive et responsive   appelée **My Awesome Company**. 
 
- ## language used :
+## Fonctionnalités
 
-![](asset/media/image/html.png) ![](asset/media/image/css.png)
+- **Navigation dans l'en-tête :**
+  - Comprend des liens vers "Accueil," "À propos," et "Contact."
+  - Structure facile pour une navigation fluide.
 
+- **Section Héros :**
+  - Une introduction visuellement attrayante avec un bouton d'appel à l'action invitant les utilisateurs à s'inscrire.
+  - Inclut une image accompagnée d'un titre d'accueil et d'une description.
 
-### Noticed :
-== The texts and images contain meaningless artificial content.
+- **Section Informations :**
+  - Met en avant quatre points forts de l'entreprise :
+    - Expertise en voyages
+    - Itinéraires personnalisés
+    - Offres abordables
+    - Support 24/7
+  - Chaque point est accompagné d'une image et d'une légende.
 
-== The appearance of this project on mobile is not taken into account
- #### Special thanks : 
+- **Bloc de citation :**
+  - Présente une citation inspirante sur les voyages d'Ibn Battuta.
 
-![](asset/media/image/OdinProjet.png) 
+- **Pied de page :**
+  - Affiche les informations sur les droits d'auteur.
+  - Mentionne "Odin project" dans les crédits.
 
+## Structure des fichiers
+```
+project-folder/
+├── index.html        # Fichier HTML principal
+├── asset/
+    ├── style/
+        ├── style.css  # Feuille de style principale
+        └── styles.css   # Styles supplémentaires
+```
+
+## Technologies utilisées
+
+- **HTML5** : Pour structurer le contenu.
+- **CSS3** : Pour le style de la page (fichiers situés dans `asset/style/`).
