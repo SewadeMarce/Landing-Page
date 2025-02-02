@@ -1,93 +1,110 @@
 /*======================
 STYLES SUR LE HEADER
 =========================*/
-header,
-#hero, footer {
+#header {
+    height: 150px;
+    width: 100%;
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    height: auto;
-    color: white;
+
 
 }
 
-header .ctn,#hero .ctn  {
+#ctn-header {
     display: flex;
     justify-content: space-between;
-margin: 0 auto; 
-width: 900px;
+    width: 900px;
+
 }
 
-.ctn .logo {
+#logo{
     width: auto;
     height: auto;
-    padding: 15px;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
 
 }
 
-.ctn nav ul {
-    height: 100%;
+
+#navbar ul {
     display: flex;
-    padding: 15px;
-    gap: 0px 15px;
-    flex-wrap: wrap;
-}
-
-ul a {
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
-}
-
-#hero .ctn {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0px 25px;
-    justify-content: center;
-}
-
-.child-1,
-.child-2 {
-    width: 400px;
     height: auto;
-    margin: 0 0 15px 0;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 
 }
 
-.child-2 figure {
+#navbar a {
+    
+        font-size: 18px;
+        color: #E5E7EB;
+        text-decoration: none;
+    
+    
+}
+
+
+
+/*=====================================
+STYLES SUR LE  PREMIER SECTION #hero DE MAIN
+======================================*/
+
+#hero{
+    height: auto;
     width: 100%;
-    height: 200px;
-    background-color: #9e9fa1;
+    padding: 5px 0 0 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
 
 }
 
-img {
-    width: 100%;
-    height: 100%;
+#ctn-hero{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 900px;
+
+}
+.item{
+width: 400px;
 }
 
-.child-1 h1 {
+
+.item1 h2 {
     width: auto;
     height: auto;
-    padding: 15px 0;
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 900
+    font-weight: 900;
+    padding: 20px 0 0 0;
+
+}
+figure{
+    width: 100%;
 }
 
-.child-2 figcaption,
-.child-1 p {
+figure img{
+    width: 100%;
+}
+
+.item2 figcaption,
+.item1 p {
     color: #E5E7EB;
     font-size: 18px;
-    padding: 0px 15px 15px;
     text-align: justify;
+    padding: 10px 15px 15px 0;
+
 }
 
-.child-1 a {
+.item1 a {
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #3882F6;
     border-radius: 5px;
     background-color: #3882F6;
     height: auto;
@@ -97,78 +114,85 @@ img {
     font-weight: 900;
     padding: 5px;
 }
+/*==============================
+STYLES SUR LA SECTION #INFO
+=============================*/
+
 
 
 #info h2 {
-    width: auto;
-    height: auto;
-    padding: 15px;
-    font-size: 24px;
+    height: 50px;
+    justify-content: center;
+
+display: flex;  
+align-items: center;
+  font-size: 24px;
     font-weight: bold;
     color: #282c23;
-    text-align: center;
 }
 
-#info .ctn {
+ #ctn-info {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+#item2-ctn-info{
     display: flex;
     height: auto;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
+    gap: 100px;
 
 }
 
-#info .ctn figure {
+#info  figure {
     width: 150px;
     height: 170px;
 
 }
 
-#info .ctn figure img {
+#info  figure img {
     border: 3.5px solid #3882F6;
     border-radius: 5px;
     width: 100%;
     height: 120px;
 }
 
-#info .ctn figure figcaption {
+#info  figure figcaption {
     color: #585d6e;
     font-size: 18px;
     padding: 0px 15px 15px;
     text-align: left;
 }
-
-blockquote {
+/*==============================
+STYLES SUR  blockquote
+=============================*/
+blockquote{
     background-color: #cfcfd1;
-
+    height: 200px;
+    display: flex;
+justify-content: center;
+align-items: center;
 }
 
-blockquote .ctn {
 
-    margin: 0px 150px;
+.ctn-blockquote {
     color: #555d6d;
     font-size: 18px;
     font-style: italic;
-    text-align: justify;
-    padding: 60px 0;
+    display: flex;
+align-items: center;
+width: 900px;
+height: 100px
 }
 
 cite {
-    float: inline-end;
     padding: 2px 0  0 25px;
     font-size: 24px;
     font-weight: bold;
     color: #282c23;
-}
-
-#bottom .ctn{
-    background-color: #3882F6;
-    margin: 50px 90px;
-    border-radius: 5px;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    text-align: end;
+    align-self: flex-end;
 
 
 }
@@ -180,8 +204,24 @@ cite {
     font-weight: bold;
     margin-bottom: 5px;
 }
-.ctn .left{
-    width: 70%;
+#bottom{
+    height: 200px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.ctn-bottom {
+        background-color: #3882F6;
+        border-radius: 5px;
+        display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 900px;
+    height: 100px
+    }
+    
+ .left{
     color: #E5E7EB;
 
 }
@@ -204,3 +244,10 @@ small{
     text-align: center;
     padding: 20px;
 }
+
+
+ footer {
+    background-color: #1F2937;
+    height: auto;
+    color: white;
+ }

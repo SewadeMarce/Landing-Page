@@ -1,7 +1,7 @@
 # THE ODIN PROJECT : My Awesome Company
 
 ## Aperçu
-Ce projet est un site web simple fictive et responsive   appelée **My Awesome Company**. 
+Ce projet est un site web simple fictive et non responsive sur mobile  appelée **My Awesome Company**. 
 
 ## Fonctionnalités
 
