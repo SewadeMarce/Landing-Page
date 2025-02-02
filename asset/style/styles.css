@@ -19,7 +19,7 @@ STYLES SUR LE HEADER
 
 }
 
-#logo{
+#logo {
     width: auto;
     height: auto;
     font-size: 24px;
@@ -40,12 +40,12 @@ STYLES SUR LE HEADER
 }
 
 #navbar a {
-    
-        font-size: 18px;
-        color: #E5E7EB;
-        text-decoration: none;
-    
-    
+
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+
+
 }
 
 
@@ -54,7 +54,7 @@ STYLES SUR LE HEADER
 STYLES SUR LE  PREMIER SECTION #hero DE MAIN
 ======================================*/
 
-#hero{
+#hero {
     height: auto;
     width: 100%;
     padding: 5px 0 0 0;
@@ -64,15 +64,16 @@ STYLES SUR LE  PREMIER SECTION #hero DE MAIN
 
 }
 
-#ctn-hero{
+#ctn-hero {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 900px;
 
 }
-.item{
-width: 400px;
+
+.item {
+    width: 400px;
 }
 
 
@@ -85,11 +86,12 @@ width: 400px;
     padding: 20px 0 0 0;
 
 }
-figure{
+
+figure {
     width: 100%;
 }
 
-figure img{
+figure img {
     width: 100%;
 }
 
@@ -114,6 +116,7 @@ figure img{
     font-weight: 900;
     padding: 5px;
 }
+
 /*==============================
 STYLES SUR LA SECTION #INFO
 =============================*/
@@ -124,55 +127,58 @@ STYLES SUR LA SECTION #INFO
     height: 50px;
     justify-content: center;
 
-display: flex;  
-align-items: center;
-  font-size: 24px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
     font-weight: bold;
     color: #282c23;
 }
 
- #ctn-info {
+#ctn-info {
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
-#item2-ctn-info{
+
+#item2-ctn-info {
     display: flex;
+    flex-wrap: wrap;
     height: auto;
     gap: 100px;
 
 }
 
-#info  figure {
+#info figure {
     width: 150px;
     height: 170px;
 
 }
 
-#info  figure img {
+#info figure img {
     border: 3.5px solid #3882F6;
     border-radius: 5px;
     width: 100%;
     height: 120px;
 }
 
-#info  figure figcaption {
+#info figure figcaption {
     color: #585d6e;
     font-size: 18px;
     padding: 0px 15px 15px;
     text-align: left;
 }
+
 /*==============================
 STYLES SUR  blockquote
 =============================*/
-blockquote{
+blockquote {
     background-color: #cfcfd1;
     height: 200px;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -181,13 +187,13 @@ align-items: center;
     font-size: 18px;
     font-style: italic;
     display: flex;
-align-items: center;
-width: 900px;
-height: 100px
+    align-items: center;
+    width: 900px;
+    height: 100px
 }
 
 cite {
-    padding: 2px 0  0 25px;
+    padding: 2px 0 0 25px;
     font-size: 24px;
     font-weight: bold;
     color: #282c23;
@@ -196,7 +202,8 @@ cite {
 
 
 }
-.left h2{
+
+.left h2 {
     color: #E5E7EB;
     width: auto;
     height: auto;
@@ -204,31 +211,33 @@ cite {
     font-weight: bold;
     margin-bottom: 5px;
 }
-#bottom{
+
+#bottom {
     height: 200px;
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .ctn-bottom {
-        background-color: #3882F6;
-        border-radius: 5px;
-        display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     width: 900px;
     height: 100px
-    }
-    
- .left{
+}
+
+.left {
     color: #E5E7EB;
 
 }
 
-a#right{  display: inline-block;
+a#right {
+    display: inline-block;
     text-decoration: none;
-    border: 1px solid  #E5E7EB;
+    border: 1px solid #E5E7EB;
     border-radius: 5px;
     background-color: #3882F6;
     height: auto;
@@ -238,7 +247,8 @@ a#right{  display: inline-block;
     font-weight: 900;
     padding: 5px;
 }
-small{
+
+small {
     display: block;
     border: 1px solid white;
     text-align: center;
@@ -246,8 +256,8 @@ small{
 }
 
 
- footer {
+footer {
     background-color: #1F2937;
     height: auto;
     color: white;
- }
+}
